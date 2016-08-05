@@ -1,0 +1,165 @@
+doctype html
+html
+	head
+		title CZASCH &middot; stavební společnost &middot; již 23 let s vámi
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		//if lte IE 8
+			script(src='js/ie/html5shiv.js')
+		link(rel='stylesheet', href='css/app.css')
+		//if lte IE 9
+			link(rel='stylesheet', href='css/ie9.css')
+		//if lte IE 8
+			link(rel='stylesheet', href='css/ie8.css')
+	body
+		// Sidebar
+		section#sidebar
+			.inner
+				nav
+					ul
+						//- li
+						//- 	a(href='#intro') CZASCH
+						li
+							a(href='#o-spolecnosti') O společnosti
+						li
+							a(href='#reference') Reference
+						li
+							a(href='#nase-cinnost') Naše činnost
+						li
+							a(href='#kontakt') Kontakt
+		// Wrapper
+		#wrapper
+			// Intro
+			section#intro.wrapper.fullscreen.fade-up
+				.inner
+					h1 Czasch
+					p
+						| 23 let zkušeností s realizací staveb.
+					ul.actions
+						li
+							a.button.scrolly(href='#o-spolecnosti') Kdo jsme?
+			// About
+			section#o-spolecnosti.wrapper.fade-up.fullscreen
+				.inner
+					h2  CZASCH spol. s r.o.
+					p Společnost byla založena v roce 1993 a od prvopočátku se zabýváme stavební činností. Postupně jsme přecházeli od realizace jednodušších staveb ke stavbám složitějšího charakteru. Dnes jsme schopni vyhovět všem reálným požadavkům a termínům objednatele.
+					p Naše společnost buduje své jméno cestou jakosti díla, záruk a kvalitou nabízených služeb.
+					p Odborné znalosti a profesní schopnosti s dlouholetou zkušeností v oblasti stavebnictví, skýtají záruku spokojenosti našich zákazníků.
+					p 
+						strong Josef Šoltís
+						br
+						| jednatel společnosti Czasch spol. s r.o.
+			// References
+			section#reference.wrapper.style4.spotlights
+				section
+					a.image(href='#')
+						img(src='images/pic01.jpg', alt='', data-position='center center')
+					.content
+						.inner
+							h2 Sed ipsum dolor
+							p
+								| Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+							ul.actions
+								li
+									a.button(href='#') Learn more
+				section
+					a.image(href='#')
+						img(src='images/pic02.jpg', alt='', data-position='top center')
+					.content
+						.inner
+							h2 Feugiat consequat
+							p
+								| Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+							ul.actions
+								li
+									a.button(href='#') Learn more
+				section
+					a.image(href='#')
+						img(src='images/pic03.jpg', alt='', data-position='25% 25%')
+					.content
+						.inner
+							h2 Ultricies aliquam
+							p
+								| Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.
+							ul.actions
+								li
+									a.button(href='#') Learn more
+			// Services
+			section#nase-cinnost.wrapper.style3.fade-up
+				.inner
+					h2 Naše činnost
+					p
+					h3 Stavební výroba
+					ul
+						li Stavby a rekonstrukce obytných domů
+						li Stavby občanské vybavenosti
+						li Rekonstrukce historických budov
+						li Stavby pro cestovní ruch a rekreaci
+						li Ekologické stavby
+						li Výstavba a rekonstrukce průmyslových objektů
+					p
+						| Specializujeme se na pozemní stavby, máme velké zkušenosti s rekonstrukcemi objektů a sanacemi jejich jednotlivých konstrukcí. Z těchto zkušeností těžíme při realizaci staveb nových.
+					p
+						| Provádíme také stavby inženýrských sítí a vodohospodářských objektů. Všechny výše uvedené druhy staveb jsou vedeny pracovníky s příslušnou autorizací.
+					.features
+						section
+							//- span.icon.major.fa-code
+							h3 Autodoprava
+							p
+								| Naše společnost má k dispozici případně si najme strojní a dopravní vybavení potřebné k realizaci zakázek.
+							p
+								a.button(href='#') Ceník autodopravy
+						section
+							//- span.icon.major.fa-code
+							h3 Pronájem lešení
+							p
+								| Anna Jungwirthová
+								br
+								a(href='mailto:jungwirthova@czasch.cz') jungwirthova@czasch.cz
+								br
+								| 					Tel: +420 608 653 034
+					a.button.scrolly(href='#kontakt') Zaujali jsme vás? Kontaktujte nás
+			// Contact
+			section#kontakt.wrapper.fade-up.fullscreen
+				.inner
+					h2 Kontakt
+					h3 Sídlo společnosti
+					p
+						| Czasch spol. s r.o.
+						br
+						| Opavská 1174/8
+						br
+						| 792 01 Bruntál
+					p
+						| +420 554 711 101 / +420 608 653 000
+						br
+						a(href='mailto:czasch@czasch.cz') czasch@czasch.cz
+					p
+						| IČ: 47972947 / DIČ: CZ47972947
+						br
+						| KB Bruntál: 18549-771/0100
+					h3 Jednatel společnosti
+					p
+						| Josef Šoltís
+						br
+						a(href='mailto:soltis@czasch.cz') soltis@czasch.cz
+					//- h4 Ekonomická ředitelka
+					//- p
+					//- 	| Dagmar Volčíková
+					//- 	br
+					//- 	a(href='mailto:volcikova@czasch.cz') volcikova@czasch.cz
+				#map
+		// Footer
+		//- footer#footer.wrapper
+		//- 	.inner
+		//- 		ul.menu
+		//- 			li © Untitled. All rights reserved.
+		//- 			li
+		//- 				| Design: 
+		//- 				a(href='http://html5up.net') HTML5 UP
+		// Scripts
+		script(src='http://maps.google.com/maps/api/js')
+		script(src='js/scripts.js')
+		//if lte IE 8
+			script(src='js/ie/respond.min.js')
+		//- script(src='js/main.js')
