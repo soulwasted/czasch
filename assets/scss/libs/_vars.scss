@@ -33,14 +33,17 @@
 
 // Palette.
 	$color-orange:			#fff500;
-	$color-blue:			#0f1f35;
+	$color-blue:			#001c42;
+	$color-blue-alt:		#082656;
 	$palette: (
 		// bg:					#312450,
 		bg:					$color-blue,
 		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
+		// fg:					rgba(255,255,255,0.55),
+		fg:					#ccc,
+		fg-bold:			white,
+		// fg-light:			rgba(255,255,255,0.35),
+		fg-light:			#bbb,
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
 		accent1:			$color-orange,

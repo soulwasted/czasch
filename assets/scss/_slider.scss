@@ -1,0 +1,24 @@
+.popup {
+	position: static;
+	// background: $color-blue;
+	padding: 25px;
+	// width: 100%;
+	// height: 100vh;
+	margin: 0 auto;
+	z-index: 1000;
+}
+.mfp-wrap {
+	-webkit-overflow-scrolling: touch;
+	-webkit-transform: translateZ(0);
+}
+.mfp-content {
+	height: 100%;
+}
+html.mfp-helper {
+	height: 100%;
+	body {
+		overflow: hidden;
+		height: 100%;
+		-webkit-transform: translateZ(0);
+	}
+}

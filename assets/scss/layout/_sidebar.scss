@@ -8,7 +8,8 @@
 
 	#sidebar {
 		@include padding(2.5em, 2.5em);
-		background: _palette(bg);
+		// background: _palette(bg);
+		// background: rgba(0, 28, 66, 0.7);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -18,7 +19,8 @@
 		text-align: right;
 		top: 0;
 		width: _size(sidebar-width);
-		z-index: _misc(z-index-base);
+		// z-index: _misc(z-index-base);
+		z-index: 10;
 
 		> .inner {
 			@include vendor('display', 'flex');
@@ -48,7 +50,7 @@
 						'opacity #{_duration(activation) * 0.15} ease',
 						'transform #{_duration(activation) * 0.75} ease'
 					));
-					margin: 1.5em 0 0 0;
+					margin: 1em 0 0 0;
 					opacity: 1;
 					padding: 0;
 					position: relative;
@@ -92,7 +94,8 @@
 				}
 
 				&:before {
-					background: lighten(_palette(bg), 5);
+					// background: lighten(_palette(bg), 5);
+					background: rgba(0, 0, 0, 0.24);
 				}
 
 				&:after {
@@ -130,7 +133,7 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint(medium) {
 			height: _size(sidebar-height);
 			left: 0;
 			line-height: _size(sidebar-height);
