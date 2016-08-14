@@ -158,11 +158,19 @@ ul.actions {
 				&:nth-child(2) {
 					border: 0;
 				}
+				&.last {
+					background-color: none !important;
+				}
 			}
 		}
 	}
 }
 #kontakt {
+	&>.inner {
+		width: 100%;
+		min-height: 100vh;
+		padding: 0;
+	}
 	@include breakpoint(large-min) {
 		&.wrapper {
 			padding-left: 0;

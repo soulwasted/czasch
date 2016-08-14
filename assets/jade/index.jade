@@ -113,16 +113,16 @@ html
 								li
 									//- a.button.popup-link(href='#popup-realizace-municni_sklad') Fotky
 									a.button(href='#') Fotky
-					#popup-realizace-municni_sklad.popup.mfp-hide
-						.full-width-slider.royalSlider.heroSlider.rsMinW
-							.rsContent
-								img.rsImg(src='../img/full-width/1.jpg', alt='')
-							.rsContent
-								img.rsImg(src='../img/full-width/2.jpg', alt='')
-							.rsContent
-								img.rsImg(src='../img/full-width/3.jpg', alt='')
-							.rsContent
-								img.rsImg(src='../img/full-width/4.jpg', alt='')
+					//- #popup-realizace-municni_sklad.popup.mfp-hide
+					//- 	.full-width-slider.royalSlider.heroSlider.rsMinW
+					//- 		.rsContent
+					//- 			img.rsImg(src='../img/full-width/1.jpg', alt='')
+					//- 		.rsContent
+					//- 			img.rsImg(src='../img/full-width/2.jpg', alt='')
+					//- 		.rsContent
+					//- 			img.rsImg(src='../img/full-width/3.jpg', alt='')
+					//- 		.rsContent
+					//- 			img.rsImg(src='../img/full-width/4.jpg', alt='')
 				section
 					a.image(href='#')
 						img(src='images/realizace/czasch-realizace-peras-ludvikov.jpg', alt='Přístavba a dostavba sportovně relaxačního centra PERAS v Ludvíkově', data-position='center center')
@@ -253,7 +253,7 @@ html
 							//- ul.actions
 							//- 	li
 							//- 		a.button(href='#') Fotky
-				.inner
+				.inner.fade-up
 					h3 Mezi investory patří:
 					.row
 						.6u(class='12u(medium)')
@@ -284,9 +284,8 @@ html
 							a.button.special.scrolly(href='#nase-cinnost') Čím se zabýváme?
 						li
 							a.button.scrolly(href='#kontakt') Kontaktujte nás
-
 			// Services
-			section#nase-cinnost.wrapper.style4.fade-up
+			section#nase-cinnost.wrapper.fade-up
 				.inner
 					h2 Naše činnost
 					h3 Stavební výroba
@@ -338,9 +337,9 @@ html
 							a.button.special.scrolly(href='#kontakt') Kontaktujte nás
 			// Contact
 			section#kontakt.wrapper.fade-up.fullscreen
-				.row
-					.7u(class='12u(small)')
-						.inner
+				.inner
+					.row
+						.7u(class='12u(small)')
 							h2 Kontakt
 							h3 Sídlo společnosti
 							p
@@ -369,7 +368,7 @@ html
 							//- 	| Dagmar Volčíková
 							//- 	br
 							//- 	a(href='mailto:volcikova@czasch.cz') volcikova@czasch.cz
-					a#map.5u(class='12u(small)', href="https://goo.gl/maps/LzwBgxFnWU82", target="_blank")
+						a#map.5u(class='12u(small)', href="https://goo.gl/maps/LzwBgxFnWU82", target="_blank")
 			// Footer
 			//- footer#footer.wrapper
 			//- 	.inner

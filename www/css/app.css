@@ -2997,7 +2997,14 @@ ul.actions {
         padding-left: 0;
         padding-right: 0; }
         #nase-cinnost .features section:nth-child(2) {
-          border: 0; } }
+          border: 0; }
+        #nase-cinnost .features section.last {
+          background-color: none !important; } }
+
+#kontakt > .inner {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0; }
 
 @media screen and (min-width: 981px) {
   #kontakt.wrapper {
