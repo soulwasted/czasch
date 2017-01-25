@@ -1598,7 +1598,7 @@ button,
     pointer-events: none;
     -webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
     transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
-    -o-transition: opacity 0.2s ease, transform 0.2s ease, -o-transform 0.2s ease;
+    -o-transition: opacity 0.2s ease, -o-transform 0.2s ease;
     transition: opacity 0.2s ease, transform 0.2s ease;
     transition: opacity 0.2s ease, transform 0.2s ease, -webkit-transform 0.2s ease, -o-transform 0.2s ease;
     background: white;
@@ -1721,7 +1721,7 @@ button,
     .features section .icon {
       -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
       transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-      -o-transition: opacity 0.5s ease, transform 0.5s ease, -o-transform 0.5s ease;
+      -o-transition: opacity 0.5s ease, -o-transform 0.5s ease;
       transition: opacity 0.5s ease, transform 0.5s ease;
       transition: opacity 0.5s ease, transform 0.5s ease, -webkit-transform 0.5s ease, -o-transform 0.5s ease;
       -webkit-transition-delay: 1s;
@@ -2218,7 +2218,7 @@ header h6 + p {
          transform: translateX(0) translateY(0);
       -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
       transition: opacity 1s ease, -webkit-transform 1s ease;
-      -o-transition: opacity 1s ease, transform 1s ease, -o-transform 1s ease;
+      -o-transition: opacity 1s ease, -o-transform 1s ease;
       transition: opacity 1s ease, transform 1s ease;
       transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease, -o-transform 1s ease;
       opacity: 1; }
@@ -2374,7 +2374,7 @@ table {
        transform: translateY(0);
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     transition: opacity 1s ease, -webkit-transform 1s ease;
-    -o-transition: opacity 1s ease, transform 1s ease, -o-transform 1s ease;
+    -o-transition: opacity 1s ease, -o-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease, -o-transform 1s ease;
     opacity: 1.0; }
@@ -2392,7 +2392,7 @@ table {
        transform: translateY(0);
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     transition: opacity 1s ease, -webkit-transform 1s ease;
-    -o-transition: opacity 1s ease, transform 1s ease, -o-transform 1s ease;
+    -o-transition: opacity 1s ease, -o-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease, -o-transform 1s ease;
     opacity: 1.0; }
@@ -2567,7 +2567,7 @@ table {
          transform: translateY(0);
       -webkit-transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
       transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
-      -o-transition: opacity 0.15s ease, transform 0.75s ease, -o-transform 0.75s ease;
+      -o-transition: opacity 0.15s ease, -o-transform 0.75s ease;
       transition: opacity 0.15s ease, transform 0.75s ease;
       transition: opacity 0.15s ease, transform 0.75s ease, -webkit-transform 0.75s ease, -o-transform 0.75s ease;
       margin: 1em 0 0 0;
@@ -2728,7 +2728,6 @@ table {
         -ms-align-items: stretch;
         -webkit-box-align: stretch;
             -ms-flex-align: stretch;
-                    -ms-grid-row-align: stretch;
                 align-items: stretch;
         height: inherit;
         line-height: inherit; }
@@ -2859,7 +2858,7 @@ ul.actions {
 
 #intro {
   background-attachment: fixed;
-  background-image: url("../images/czasch-slider-01.jpg");
+  background-image: url("../images/czasch-slider-02.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
