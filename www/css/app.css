@@ -2759,26 +2759,6 @@ table {
             background-image: none;
             background-color: white; } }
 
-/* Intro */
-#intro {
-  background-attachment: fixed;
-  background-image: url("../images/czasch-slider-03.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-          background-size: cover; }
-  #intro p {
-    font-size: 1.25em; }
-    @media screen and (max-width: 980px) {
-      #intro p br {
-        display: none; } }
-    @media screen and (max-width: 736px) {
-      #intro p {
-        font-size: 1em; } }
-  @media screen and (max-width: 1280px) {
-    #intro {
-      background-attachment: scroll; } }
-
 .popup {
   position: static;
   padding: 25px;
@@ -2858,7 +2838,6 @@ ul.actions {
 
 #intro {
   background-attachment: fixed;
-  background-image: url("../images/czasch-slider-02.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
