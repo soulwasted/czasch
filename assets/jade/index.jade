@@ -1,15 +1,15 @@
 doctype html
 html
 	head
-		title CZASCH &middot; 26 let s vámi &middot; pronájem kanceláří
+		title CZASCH &middot; 28 let s vámi &middot; pronájem kanceláří
 		meta(name='description', content='Pronájem kancelářských prostor. Pronájem lešení.')
 		meta(name='keywords', content='Pronájem kancelářských prostor. Pronájem lešení.')
 		//- meta(name='description', content='Specializace na pozemní stavby, především na výstavbu, rekonstrukce a přípravu staveb. Mezi naše zákazníky patří mimo jiné MO ČR, MZV ČR, VZP ČR,...')
 		//- meta(name='keywords', content='stavby bruntál, stavební společnost, pozemní stavby, rekonstrukce, příprava staveb, wellness bruntál')
-		meta(property='og:title', content='CZASCH &middot; 26 let s vámi &middot; pronájem kanceláří')
+		meta(property='og:title', content='CZASCH &middot; 28 let s vámi &middot; pronájem kanceláří')
 		meta(property='og:description', content='Pronájem kancelářských prostor. Pronájem lešení.')
 		meta(property='og:image', content='images/czasch-slider-01.jpg')
-		meta(property='og:url', content='http://www.czasch.cz')
+		meta(property='og:url', content='https://www.czasch.cz')
 		//- meta(name='twitter:card', content='summary_large_image')
 		//- meta(name='og:site_name', content='Czasch spol. s r.o. - stavební společnost')
 		//- meta(name='twitter:image:alt', content='Czasch spol. s r.o. - stavební společnost')
@@ -25,16 +25,6 @@ html
 		//if lte IE 8
 			link(rel='stylesheet', href='css/ie8.css')
 	body
-		// Google Tag Manager
-		noscript
-			iframe(src='//www.googletagmanager.com/ns.html?id=GTM-PJJLGW', height='0', width='0', style='display:none;visibility:hidden')
-		script.
-			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-			})(window,document,'script','dataLayer','GTM-PJJLGW');
-		// End Google Tag Manager
 		// Sidebar
 		section#sidebar
 			.inner
@@ -57,11 +47,13 @@ html
 				.inner
 					h1 Czasch
 					//- p
-					//- 	| 26 let s vámi
+					//- 	| 28 let s vámi
 					p
-						| Pronájem (kancelářských) prostor.
+						| Pronájem (kancelářských) prostor
 						br
-						| Pronájem lešení. Ubytovna.
+						| Pronájem lešení
+						br
+						| Ubytovna
 					ul.actions
 						li
 							a.button.special.scrolly(href='#nase-cinnost') Naše činnost
@@ -91,22 +83,48 @@ html
 						section
 							h3 Pronájem kancelářských prostor
 							ul
-								li +420 608 653 075
+								li
+									| 19 kanceláří k pronájmu o velikosti 6,5 m
+									sup 2
+									|  - 38,5 m
+									sup 2
+									| .
+								li
+									| Cena za 1 m
+									sup 2
+									|  je od 40,- Kč / m
+									sup 2
+									|  / měsíc + náklady za energie
+								li
+									a(href='https://www.kancelare-bruntal.cz' target='_blank') www.kancelare-bruntal.cz
+								li
+									| Kontakt: Zdeněk Janák — 
+									a(href='tel:+420608653075') +420 608 653 075
+									|  — 
+									a(href='mailto:pronajem@czasch.cz') pronajem@czasch.cz
 					.features
 						section
 							h3 Pronájem lešení a drobného nářadí
 							ul
-								li Ceny dohodou
-								li Peri lešení od 1,50 Kč/m
+								li
+									| Peri lešení od 1,50 Kč/m
 									sup 2
-								li +420 608 653 075
+								li
+									a(href='https://www.leseni-bruntal.cz' target='_blank') www.leseni-bruntal.cz
+								li
+									| Kontakt: Zdeněk Janák, 
+									a(href='tel:+420608653075') +420 608 653 075
 					.features
 						section
 							h3 Ubytovna Penzion ABC
 							ul
 								li
-									a(href='http://www.penzionabc.cz', target='_blank') www.penzionabc.cz
-								li +420 731 654 477
+									a(href='https://www.penzionabc.cz' target='_blank') www.penzionabc.cz
+								li
+									| Kontakt: Dagmar Volčíková — 
+									a(href='tel:+420608653018') +420 608 653 018
+									|  / Zdeněk Janák — 
+									a(href='tel:+420608653075') +420 608 653 075
 			// Contact
 			section#kontakt.wrapper.fade-up.fullscreen
 				.inner
@@ -140,22 +158,6 @@ html
 								| +420 608 653 018
 								br
 								a(href='mailto:volcikova@czasch.cz') volcikova@czasch.cz
-							//- h4 Ekonomická ředitelka
-							//- p
-							//- 	| Dagmar Volčíková
-							//- 	br
-							//- 	a(href='mailto:volcikova@czasch.cz') volcikova@czasch.cz
-						a#map.5u(class='12u(small)', href="https://goo.gl/maps/LzwBgxFnWU82", target="_blank")
-			// Footer
-			//- footer#footer.wrapper
-			//- 	.inner
-			//- 		ul.menu
-			//- 			li © Untitled. All rights reserved.
-			//- 			li
-			//- 				| Design: 
-			//- 				a(href='http://html5up.net') HTML5 UP
-			// Scripts
-			//- script(src='http://maps.google.com/maps/api/js?key=AIzaSyBJ0O4AYBHfj2Rjhimv0WiYDh52by5EekU')
+						a#map.5u(class='12u(small)' href='https://goo.gl/maps/LzwBgxFnWU82' target='_blank')
 			script(src='js/scripts.js')
 			| <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-			//- script(src='js/main.js')
