@@ -27,7 +27,7 @@
     "gulp-uglify": "^1.5.4",
     "gulp-util": "^3.0.7",
     "postcss-flexibility": "^1.1.1",
-    "readmore-js": "^2.1.0",
+    "readmore-js": "^2.2.1",
     "vinyl-buffer": "^1.0.1"
   },
   "scripts": {
